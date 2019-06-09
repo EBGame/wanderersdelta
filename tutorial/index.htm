@@ -1,0 +1,187 @@
+﻿<!doctype html>
+
+<html>
+<!-- Copied from https://wanderers.io/tutorial/ by Cyotek WebCopy 1.7.0.600, 9 июня 2019 г., 15:14:15 -->
+
+  <head>
+      
+      <title>Tutorial | Wanderers.io</title>
+
+      <meta http-equiv="content-type" content="text/html; charset=UTF8">
+
+      <meta property="og:title" content="Wanderers.io Tutorial">
+      <meta property="og:url" content="https://wanderers.io/tutorial/">
+      <meta name="description" content="Lead a tribe of tiny people through a dangerous sandbox. Gather food, cut trees and mine rocks to find resources needed to upgrade your minions. Team up with other tribes to increase your chances in battle.">
+      <meta name="keywords" content="wildsio, wild, io, barbarian, tribe, multiplayer, videogame, technology, rpg, game, games, web game, html5, flash">
+      <meta name="robots" content="index, follow">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta property="og:description" content="Lead a tribe of tiny people through a dangerous sandbox. Gather food, cut trees and mine rocks to find resources needed to upgrade your minions. Team up with other tribes to increase your chances in battle.">
+      <meta property="og:image" content="https://wanderers.io/thumb.gif">
+      <meta property="og:image:width" content="640">
+      <meta property="og:image:height" content="480">
+
+  </head>
+
+  <style>
+
+  @font-face {
+      font-family: "generic";
+      src: url("../fonts/retro.ttf") format("truetype");
+      font-weight: normal;
+      font-style: normal;
+  }
+
+  body { 
+
+    margin: 32px;
+    background: #595652;
+    color: #fff;
+    font-family: generic;
+    cursor: url(cursor_3x.png) 0 0, auto;
+  }
+
+  body { overflow: auto; background: #585553; display: flex}
+
+  a { cursor: pointer; text-decoration: none; color: #fa0; }
+
+  .content { display: flex; flex-wrap: wrap; }
+  .content div { width: 640px; display: none }
+  .content div video { width: 100%; }
+  .content div img { width: 100%; }
+
+  .chapters { padding-right: 32px; text-align: left; border-right: 2px solid #847e87; margin-right: 32px;  }
+  .chapters a { display: block; color: #9badb7; padding: 2px 8px;}
+  .chapters a:hover { background: #5b6ee1; color: #cbdbfc; }
+  .chapters a.selected { color: #fff; }
+  .chapters .separator { padding: 0; margin: 16px 0; display: block; height: 2px; background: #847e87;}
+  
+
+  h2 { color: #fa0; }
+
+</style>
+
+<body>
+
+  <div class="chapters"></div>
+
+  <div class="content">
+
+    <div title="Moving">
+      <div class="video-placeholder" src="01_move.mp4" autoplay="" loop=""></div>
+      <h2>Drag the totem to move your tribe</h2>
+      <p>The more folks you have the slower your tribes move</p>
+    </div>
+
+    <div title="Lumber">
+      <div class="video-placeholder" src="03_axe.mp4" autoplay="" loop=""></div>
+      <h2>Give your minion an axe to cut down trees</h2>
+      <p>Wood is a basic resource that you need for basic tools and campfires</p>
+    </div>
+
+    <div title="Hunting">
+      <div class="video-placeholder" src="04_bow.mp4" autoplay="" loop=""></div>
+      <h2>Give your minion a bow to hunt animals</h2>
+      <p>Looting animals will provide food for your tribe which you need to recruit new members and heal wounds.</p>
+    </div>
+
+    <div title="Recruits">
+      <div class="video-placeholder" src="02_recruit.mp4" autoplay="" loop=""></div>
+      <h2>Recruit new members</h2>
+      <p>Pay food and get new tribe members (up to 6). Each time you get a new recruit all the prices go up. On top of that the more folks you have to slower your tribe moves.</p>
+    </div>
+
+    <div title="Screen"> 
+      <img src="resources.png">
+      <h2>Screen info</h2>
+      <p>Survival is mainly about resource management. Remember that when your tribe grows so do prices.</p>
+    </div>
+
+    <div title="Experience">
+      <div class="video-placeholder" src="05_levels.mp4" autoplay="" loop=""></div>
+      <h2>Level up!</h2>
+      <p>Killing animals and enemies will give you SCORE and EXP points. Eventually you are going to level up and get new lore that will aid your survival.</p>
+    </div>
+
+    <div title="Battle">
+      <div class="video-placeholder" src="06_combat.mp4" autoplay="" loop=""></div>
+      <h2>Let's fight!</h2>
+      <p>Bring your minions closer to the enemy and the battle begins. The basic rule is that your ranged units will not be attacked as long as you have a melee unit to protect them. Ranged units have slower attack. After a victorious battle you can loot the corpses. The size of headdress on your totem shows your position among other tribes.</p>
+    </div>
+
+    <div title="Campfire">  
+      <div class="video-placeholder" src="07_heal.mp4" autoplay="" loop=""></div>
+      <h2>Heal the wounds by the campfire</h2>
+      <p>To heal the wounds after the battle place a campfire and bring your tribe close to it.</p>
+    </div>
+
+    <div title="Mushrooms">    
+      <div class="video-placeholder" src="08_mushrooms.mp4" autoplay="" loop=""></div>
+      <h2>Mushrooms</h2>
+      <p>Collect mushrooms to get extra food. Some of them are poisonous tho and they will take your minion's health.</p>
+    </div>
+
+    <div title="Buildings">    
+      <div class="video-placeholder" src="09_buildings.mp4" autoplay="" loop=""></div>
+      <h2>Special buildings</h2>
+      <p>There are special buildings on the map that will let you trade different resources.</p>
+    </div>
+
+    <div title="Scythe">      
+      <div class="video-placeholder" src="10_scythe.mp4" autoplay="" loop=""></div>
+      <h2>Scythe</h2>
+      <p>Usually there is more than one way to get some resource.</p>
+    </div>
+
+    <div title="Gold">      
+      <div class="video-placeholder" src="11_gold.mp4" autoplay="" loop=""></div>
+      <h2>Gold</h2>
+      <p>The main source of gold is mining rocks. You need gold to buy better equipment.</p>
+    </div>
+
+    <div title="Clouds">      
+      <div class="video-placeholder" src="12_cloud.mp4" autoplay="" loop=""></div>
+      <h2>Clouds</h2>
+      <p>Clouds are the real miracle of this world - they bring everything back to life.</p>
+    </div>
+
+    <div title="Team">
+      <div class="video-placeholder" src="13_team.mp4" autoplay="" loop=""></div>
+      <h2>Team up!</h2>
+      <p>Team up with similar tribes to increase your chances for survival - fight together and share resources.</p>
+    </div>
+
+    <div title="Wiki" class="separator">
+
+      <h2>Wiki</h2>
+
+      If you are looking for more detailed lore check out <a href="https://wanderersio.wikia.com/wiki/Wanderers.io_Wiki">WIKI</a> run by dedicated wanderers.io players.
+      
+    </div>
+
+    <div title="Discord">
+
+      <h2>Discord</h2>
+
+      If you need more help ask players directly on our <a href="https://discordapp.com/invite/683CVRD" target="_blank">Discord Chat</a>
+
+    </div>
+
+  </div>
+
+  <script src="../script/lib/jquery.js"></script>
+  <script src="tutorial.js?1515532347000"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-9065813-30"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-9065813-30');
+  </script>
+
+
+</body>
+
+<!-- Copied from https://wanderers.io/tutorial/ by Cyotek WebCopy 1.7.0.600, 9 июня 2019 г., 15:14:15 -->
+</html>
